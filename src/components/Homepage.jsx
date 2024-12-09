@@ -5,7 +5,7 @@ import React from "react";
 import icon from "../assets/Vector 1.png";
 import icon2 from "../assets/Vector 2.png";
 import arrow from "../assets/up right.png";
-import picture from "../assets/Whatsapp image.png";
+import picture from "../assets/Whatsapp-image.png";
 import card1 from "../assets/Rectangle 7.png";
 import card2 from "../assets/Rectangle 9.png";
 import card3 from "../assets/Rectangle 8.png";
