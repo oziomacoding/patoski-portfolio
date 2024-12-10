@@ -133,7 +133,7 @@ function ProjectCarousel() {
       startIndex + slidesPerPage
     );
     return (
-      <div className="carousel-slide flex-none w-full p-4 grid grid-cols-1 md:grid-cols-2 gap-4 px-20">
+      <div className="carousel-slide flex-none w-full p-4 grid grid-cols-1 md:grid-cols-2 gap-4 md:px-20">
         {slideCards.map((project, index) => (
           <div key={index} className="card shadow-xl rounded-3xl">
             <img

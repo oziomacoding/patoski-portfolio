@@ -63,7 +63,7 @@ function Contact() {
   };
   return (
     <>
-      <div className="flex justify-center item-center pt-6 container mx-auto mb-8">
+      <div className="flex justify-center item-center pt-6 container mx-auto mb-8 px-4">
         <div className="w-[554px] text-[#48484A]">
           <h2 className="text-2xl font-bold mb-4 text-center">Contact Me</h2>
 

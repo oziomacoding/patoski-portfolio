@@ -42,7 +42,7 @@ function Homepage() {
       </div>
       <div className="flex items-center justify-center mt-6">
         <div className="relative inline-block">
-          <div className=" text-center mt-6  text-6xl ">
+          <div className=" text-center  text-4xl md:text-6xl ">
             I'm Patrick, <br />
             Product Designer
           </div>
@@ -87,7 +87,7 @@ function Homepage() {
       {/* MY SERVICES */}
 
       <div
-        className="service min-h-screen w-full p-[71px] bg-cover bg-center"
+        className="service min-h-screen w-full py-[71px] md:px-[71px] px-2 bg-cover bg-center"
         style={{
           background: `url(${backgroundImage})`,
           backgroundSize: "600%",
@@ -102,7 +102,7 @@ function Homepage() {
           {cards.map((card, index) => (
             <div key={index} className="relative inline-block">
               <div
-                className="w-full h-[460px] md:h-[300px] lg:h-[350px] xl:h-[420px] border-[1.91px] flex flex-col inverted-radius"
+                className="w-full h-[460px]  md:h-[300px] lg:h-[350px] xl:h-[420px] border-[1.91px] flex flex-col inverted-radius"
                 style={{ background: "#68686833", borderColor: "#FFFFFF80" }}
               >
                 <h2 className="text-white text-lg font-bold mb-2 p-4 ml-4">
@@ -135,8 +135,8 @@ function Homepage() {
 
       {/* MY PROJECTS */}
 
-      <div className="md:flex block px-20 pt-6 pb-8">
-        <div className="flex-1 text-[30px]">
+      <div className="md:flex block md:px-20 px-6 pt-6 pb-8">
+        <div className="flex-1 md:text-[30px] text-center text-lg">
           Lets have a look at my{" "}
           <span className="text-orange-500">recent project</span>
         </div>
