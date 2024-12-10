@@ -9,6 +9,7 @@ import picture from "../assets/Whatsapp-image.png";
 import card1 from "../assets/Rectangle 7.png";
 import card2 from "../assets/Rectangle 9.png";
 import card3 from "../assets/Rectangle 8.png";
+import backgroundImage from '../assets/background.jpg';
 import Carousel from "../components/CarouselHomepage.jsx";
 
 function Homepage() {
@@ -88,7 +89,7 @@ function Homepage() {
       <div
         className="service min-h-screen w-full p-[71px] bg-cover bg-center"
         style={{
-          background: `url('../src/assets/background.jpg')`,
+          background: `url(${backgroundImage})`,
           backgroundSize: "600%",
         }}
       >
